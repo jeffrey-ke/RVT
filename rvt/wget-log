@@ -1,0 +1,6 @@
+--2025-03-04 17:30:20--  https://drive.google.com/drive/folders/0B2LlLwoO3nfZfkFqMEhXWkxBdjJNNndGYl9uUDQwS1pfNkNHSzFDNGwzd1NnTmlpZXR1bVE?resourcekey=0-jRw5RaXEYRLe2W6aNrNFEQ
+Resolving drive.google.com (drive.google.com)... 64.233.180.138, 64.233.180.101, 64.233.180.102, ...
+Connecting to drive.google.com (drive.google.com)|64.233.180.138|:443... connected.
+ERROR: cannot verify drive.google.com's certificate, issued by 'CN=WR2,O=Google Trust Services,C=US':
+  Unable to locally verify the issuer's authority.
+To connect to drive.google.com insecurely, use `--no-check-certificate'.

@@ -216,7 +216,7 @@ def eval(
 
     gripper_mode = Discrete()
     arm_action_mode = EndEffectorPoseViaPlanning()
-    action_mode = MoveArmThenGripper(arm_action_mode, gripper_mode)
+    action_mode = MoveArmThenGripper(arm_action_mode, gripper_mode) # TODO: promising (mar14):
 
     task_files = [
         t.replace(".py", "")
@@ -299,6 +299,7 @@ def eval(
                 eval_env.shutdown()
                 raise e
 
+            import pdb; pdb.set_trace()
             for transition in episode_rollout:
                 stats_accumulator.step(transition, True)
                 current_task_id = transition.info["active_task_id"]

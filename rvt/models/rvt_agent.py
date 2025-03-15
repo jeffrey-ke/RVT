@@ -466,7 +466,7 @@ class RVTAgent:
             action_rot_z_one_hot,
             action_grip_one_hot,
             action_collision_one_hot,
-        )
+        ) # the GT here.
 
     def get_q(self, out, dims, only_pred=False, get_q_trans=True):
         """
